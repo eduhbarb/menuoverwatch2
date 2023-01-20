@@ -1,0 +1,324 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    max-width: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+@font-face {
+    font-family: "big_noodle_titling";
+    src: url(/fonts/big_noodle_titling.ttf) format("OpenType");
+  }
+
+  @font-face {
+    font-family: "big_noodle_titling_oblique";
+    src: url(/fonts/big_noodle_titling_oblique.ttf) format("OpenType");
+  }
+
+  @font-face {
+    font-family: "Institut";
+    src: url(/fonts/Institut.ttf) format("OpenType");
+  }
+
+/* ---------------------------------------- */
+/* ------------- MENU DO TOPO ------------- */
+/* ---------------------------------------- */
+
+  .menu-topo{
+    position: fixed;
+    left: 0;
+    top: 20px;
+    width: 100vw;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    
+  }
+
+  .conjjunto-itens-menu-topo-direita{
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+  }
+
+  .overwatch2-logo{
+    padding-left: 5rem;
+    filter: drop-shadow(5px 5px 7px rgba(0, 0, 0, 0.24));
+  }
+
+  .menu-topo button{
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+  }
+
+  .card-player{
+    display: flex;
+    gap: 1.5rem;
+    justify-content: left;
+    align-items: center;
+    flex-direction: row;
+    font-family: 'big_noodle_titling_oblique', sans-serif;
+    color: black;
+    background-color: rgba(255, 255, 255, 0.884);
+    overflow-y: hidden;
+    overflow-x: hidden;
+    padding-right: 5rem;
+    border-radius: 4px;
+    height: 60px;
+  }
+
+  .nick-player{
+    font-size: 1.75rem;
+  }
+
+  .icon-player{
+    overflow-y: hidden;
+    overflow-x: hidden;
+  }
+
+  .icon-player img{
+    max-width:4rem;
+    max-height: 4rem;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    margin-bottom: -5px;
+  }
+
+  .itens-esquerda{
+    padding-right: 6rem;
+    display: flex;
+    gap: 1rem;
+    justify-content: left;
+    align-items: center;
+    flex-direction: row;
+    font-family: 'big_noodle_titling_oblique', sans-serif;
+    color: black;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    
+  }
+
+  .itens-esquerda img{
+    width:40px;
+  }
+
+  .itens-amigos{
+    padding: 8px;
+    padding-inline: 10px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 4px;
+  }
+
+  .itens-missoes{
+    background-color: rgb(255, 104, 44);
+    padding: 8px;
+    padding-inline: 10px;
+    border-radius: 4px;
+  }
+
+/* ---------------------------------------- */
+/* ------------- MENU DO MEIO ------------- */
+/* ---------------------------------------- */
+
+.menu-meio-esquerda{
+  position: fixed;
+  top: 20%;
+  left: 3rem;
+  width: 100vw;
+
+
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.menu-meio-maiores{
+    font-size: 4.5rem;
+    font-family: 'big_noodle_titling_oblique', sans-serif;
+    color: rgb(255, 255, 255);
+    filter: drop-shadow(5px 5px 7px rgba(0, 0, 0, 0.39));
+}
+
+.menu-meio-maiores button{
+  font-size: 4.5rem;
+  font-family: 'big_noodle_titling_oblique', sans-serif;
+  color: rgb(255, 255, 255);
+  filter: drop-shadow(5px 5px 7px rgba(0, 0, 0, 0.39));
+
+  background-color: transparent;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
+
+  -webkit-transition: all 0.2s 0s ease;
+-moz-transition: all 0.2s 0s ease;
+-o-transition: all 0.2s 0s ease;
+transition: all 0.2s 0s ease;
+}
+
+.menu-meio-maiores button:hover{
+  margin-left: 2rem;
+  transform: scale(1.05);
+
+}
+
+.menu-meio-menores button:hover{
+  margin-left: 2rem;
+  transform: scale(1.1);
+
+}
+
+.menu-meio-menores button{
+    font-size: 2rem;
+    font-family: 'big_noodle_titling_oblique', sans-serif;
+    color: rgb(230, 230, 230);
+    filter: drop-shadow(5px 5px 7px rgba(0, 0, 0, 0.39));
+
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+
+    -webkit-transition: all 0.2s 0s ease;
+-moz-transition: all 0.2s 0s ease;
+-o-transition: all 0.2s 0s ease;
+transition: all 0.2s 0s ease;
+}
+
+
+.passe-de-batalha{
+    display:flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.passe-novo{
+    display:flex;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: orange;
+    padding: 1px;
+    height: 40px;
+    width: 75px;
+    color: black;
+    font-size: 40%;
+
+    -webkit-border-radius: 23px 0px 23px 0px;
+-moz-border-radius: 23px 0px 23px 0px;
+border-radius: 23px 0px 23px 0px;
+}
+
+/* ---------------------------------------- */
+/* ------------- MENU INFERIOR ------------ */
+/* ---------------------------------------- */
+
+.menu-baixo{
+  position: fixed;
+  left: 0;
+  bottom: -30px;
+  width: 100vw;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    font-size: 1.4rem;
+    font-family: 'Institut', sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+.menu-batepapo{
+    margin-left: 2rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+}
+
+.enter-batepapo{
+    font-size: 1.2rem;
+    border: 3px solid #fcfcfc;
+    padding-inline: 6px;
+    padding-block: 4px;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.137);
+}
+
+.menu-juntos-direita{
+    margin-right: 2rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 4rem;
+}
+
+.menu-menu{
+    margin-right: 1rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.7rem;
+}
+
+.esc-menu{
+    font-size: 1.2rem;
+    border: 3px solid #fcfcfc;
+    padding-inline: 6px;
+    padding-block: 4px;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.137);
+}
+
+.menu-indicar{
+    margin-top: 35px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2rem;
+    background-color: rgba(0, 0, 0, 0.37);
+    border: 5px solid #ffffff;
+    border-radius: 6px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+}
+
+.n-indicar{
+    background: white;
+    padding-inline: 7px;
+    color: black;
+}
+
+/* ---------------------------------------- */
+/* ----------- VIDEO BACKGROUND ----------- */
+/* ---------------------------------------- */
+  #background-video {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+  }

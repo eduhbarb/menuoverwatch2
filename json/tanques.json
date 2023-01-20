@@ -1,0 +1,43 @@
+[
+	{
+		"image": "imgs/heroes/tanque/dva.png",
+		"nome": "D.VA"
+	},
+    {
+		"image": "imgs/heroes/tanque/roadhog.png",
+		"nome": "Roadhog"
+	},
+	{
+		"image": "imgs/heroes/tanque/orisa.png",
+		"nome": "Orisa"
+	},
+    {
+		"image": "imgs/heroes/tanque/rainhajunker.png",
+		"nome": "Rainha Junker"
+	},
+	{
+		"image": "imgs/heroes/tanque/reinhardt.png",
+		"nome": "Reinhardt"
+	},
+    {
+		"image": "imgs/heroes/tanque/sigma.png",
+		"nome": "Sigma"
+	},
+	{
+		"image": "imgs/heroes/tanque/Winston.png",
+		"nome": "Winston"
+	},
+    {
+		"image": "imgs/heroes/tanque/wreckingball.png",
+		"nome": "Wrecking Ball"
+	},
+	{
+		"image": "imgs/heroes/tanque/zarya.png",
+		"nome": "Zarya"
+	},
+    {
+		"image": "imgs/heroes/tanque/doomfist.png",
+		"nome": "Doomfist"
+	}
+    
+]

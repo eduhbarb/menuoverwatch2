@@ -1,0 +1,213 @@
+@font-face {
+    font-family: "big_noodle_titling";
+    src: url(/fonts/big_noodle_titling.ttf) format("OpenType");
+  }
+
+  @font-face {
+    font-family: "big_noodle_titling_oblique";
+    src: url(/fonts/big_noodle_titling_oblique.ttf) format("OpenType");
+  }
+
+  @font-face {
+    font-family: "Institut";
+    src: url(/fonts/Institut.ttf) format("OpenType");
+  }
+
+  body {
+    background-image: url("imgs/tracer-background-blur.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+   }
+
+/* ---------------------------------------- */
+/* ------------- MENU DO TOPO ------------- */
+/* ---------------------------------------- */
+
+.galeria-de-herois{
+  margin-top: 4rem;
+  padding-left: 2rem;
+}
+
+.menu-topo{
+  position: fixed;
+  left: 0;
+  top: 20px;
+  width: 100vw;
+  z-index: 2;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  
+}
+
+.conjjunto-itens-menu-topo-direita{
+  display: flex;
+  flex-direction: row;
+  gap: 3rem;
+}
+
+.overwatch2-logo{
+  padding-left: 5rem;
+  filter: drop-shadow(5px 5px 7px rgba(0, 0, 0, 0.24));
+}
+
+.menu-topo button{
+  background-color: transparent;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
+}
+
+.card-player{
+  display: flex;
+  gap: 1.5rem;
+  justify-content: left;
+  align-items: center;
+  flex-direction: row;
+  font-family: 'big_noodle_titling_oblique', sans-serif;
+  color: black;
+  background-color: rgba(255, 255, 255, 0.884);
+  overflow-y: hidden;
+  overflow-x: hidden;
+  padding-right: 5rem;
+  border-radius: 4px;
+  height: 60px;
+}
+
+.nick-player{
+  font-size: 1.75rem;
+}
+
+.icon-player{
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
+.icon-player img{
+  max-width:4rem;
+  max-height: 4rem;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  margin-bottom: -5px;
+}
+
+.itens-esquerda{
+  padding-right: 6rem;
+  display: flex;
+  gap: 1rem;
+  justify-content: left;
+  align-items: center;
+  flex-direction: row;
+  font-family: 'big_noodle_titling_oblique', sans-serif;
+  color: black;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  
+}
+
+.itens-esquerda img{
+  width:40px;
+}
+
+.itens-amigos{
+  padding: 8px;
+  padding-inline: 10px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 4px;
+}
+
+.itens-missoes{
+  background-color: rgb(255, 104, 44);
+  padding: 8px;
+  padding-inline: 10px;
+  border-radius: 4px;
+}
+
+/*-----------------------------*/
+
+.galeria-de-herois-titulo{
+  font-size: 9rem;
+  font-family: 'big_noodle_titling_oblique', sans-serif;
+  color: white;
+  filter: drop-shadow(5px 5px 7px rgba(0, 0, 0, 0.418));
+}
+
+
+
+#heroes{
+    position: fixed;
+    top: 35%;
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+    
+    gap: 2rem;
+    width: 100%;
+
+    
+}
+
+.heroes-card{
+
+
+
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 6px solid #ffffff;
+    border-radius: 7px;
+    background-color: white;
+    max-width: 100%;
+    -webkit-box-shadow: 0px 0px 10px -1px rgba(0,0,0,0.41);
+    -moz-box-shadow: 0px 0px 10px -1px rgba(0,0,0,0.41);
+    box-shadow: 0px 0px 10px -1px rgba(0,0,0,0.41);
+
+    -webkit-transition: all 0.2s 0s ease;
+    -moz-transition: all 0.2s 0s ease;
+    -o-transition: all 0.2s 0s ease;
+    transition: all 0.2s 0s ease;
+
+}
+
+
+#heroes :hover{
+  transform: scale(1.05);
+
+}
+
+
+
+.heroes-name{
+    padding: 0.1rem;
+    max-width: 100%;
+    display:block;
+    overflow: hidden;
+
+}
+
+.heroes-card span{ 
+    word-break: break-all;
+  white-space: pre-wrap;
+  max-width: 100%;
+  white-space: nowrap;
+    font-size: 3.5vmin;
+    font-family: 'big_noodle_titling_oblique', sans-serif;
+
+}
+
+.heroes-image{
+  max-width: 100%;
+  pointer-events: none;
+}
+
+.heroes-image img{
+  max-width: 100%;
+  max-height: 100%;
+}
+
